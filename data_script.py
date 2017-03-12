@@ -23,8 +23,6 @@ if __name__ == '__main__':
                 else:
                     data = {'Time':col_content[0], 'Price':price, 'Volume':volume, 'Turnover_ratio':turnover_ratio}
                     data_list.append(data)
-                    print col_content[0] + ',' + col_content[1] + ',' + str(price) + ',' + str(volume) + ',' + str(turnover_ratio)
 
     s = pd.Series(data_list)
     s.to_csv(outfile)
-    print s[0]
