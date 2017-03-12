@@ -1,0 +1,6 @@
+[submodule "3rdparty/keras"]
+	path = 3rdparty/keras
+	url = https://github.com/ogrisel/keras.git
+[submodule "3rdparty/prophet"]
+	path = 3rdparty/prophet
+	url = https://github.com/facebookincubator/prophet.git
